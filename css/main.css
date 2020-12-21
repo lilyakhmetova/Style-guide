@@ -1,0 +1,325 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "Steinbeck Regular";
+  src: url("../fonts/SteinbeckRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro Regular";
+  src: url("../fonts/BasisGrotesquePro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Basis Grotesque Pro Italic";
+  src: url("../fonts/BasisGrotesquePro-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* transition: all 300ms ease; */
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+a {
+  font-family: "Basis Grotesque Pro Regular";
+  text-decoration: none;
+  color: #FAF19D;
+  margin-right: 60px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Steinbeck Regular";
+  font-size: 50px;
+  line-height: 50px;
+  color: #233363;
+  padding-top: 130px;
+  margin-bottom: 110px;
+}
+
+h2 {
+  font-family: "Steinbeck Regular";
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #233363;
+  margin-bottom: 110px;
+}
+
+h3 {
+  font-family: "Basis Grotesque Pro Regular";
+  font-size: 30px;
+  line-height: 39px;
+  color: #233363;
+  margin-bottom: 110px;
+}
+
+p {
+  font-family: "Basis Grotesque Pro Regular";
+  font-size: 30px;
+  line-height: 39px;
+  color: #233363;
+  width: 65vw;
+}
+
+h4 {
+  font-family: "Basis Grotesque Pro Regular";
+  font-size: 20px;
+  line-height: 26px;
+  color: #233363;
+}
+
+.main {
+  background-color: #233363;
+  height: 100vh;
+}
+
+.main .navbar {
+  width: 100vw;
+  position: fixed;
+  background-color: #233363;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.main img {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  width: 70vw;
+  margin-top: 220px;
+}
+
+.concept {
+  background: #88E5DA;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.concept1 {
+  width: 88vw;
+  margin-top: 110px;
+  margin-bottom: 40px;
+}
+
+.society {
+  font-family: "Basis Grotesque Pro Italic";
+}
+
+.title {
+  margin-top: 130px;
+}
+
+.concept2, .concept3, .concept4 {
+  width: 88vw;
+  margin-bottom: 130px;
+  margin-top: 30px;
+}
+
+.logo {
+  background: #FAF19D;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.logo1, .logo2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.logo2 {
+  margin-bottom: 130px;
+}
+
+
+.logo1 img, .logo2 img {
+  width: 540px;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+.logo-field {
+  width: 540px;
+  margin-left: 10vw;
+  margin-bottom: 130px;
+}
+
+.logo-min, .sign-min {
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.logo-min img {
+  width: 150px;
+}
+
+.sign-min img {
+  width: 60px;
+}
+
+.wrong, .wrong-sign {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.wrong h4 {
+  margin-top: 25px;
+}
+
+.wrong img {
+  width: 20vw;
+}
+
+.wrong-sign img {
+height: 10vw;
+}
+
+.wrong-sign h4 {
+  width: 25vw;
+  margin-top: 25px;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.sign img {
+  width: 150px;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+.process {
+  width: 78vw;
+}
+
+.process-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 130px;
+  padding-right: 4vw;
+}
+
+.blue, .red {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.bluesquare {
+  width: 28px;
+  height: 28px;
+  background-color: #88E5DA;
+  margin-right: 10px;
+}
+
+.redsquare {
+  width: 28px;
+  height: 28px;
+  background-color: #E85A5A;
+  margin-right: 10px;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+.features img {
+  width: 175px;
+  margin-left: 10vw;
+}
+
+.sign-field {
+  width: 300px;
+  margin-left: 10vw;
+  margin-bottom: 130px;
+}
+
+.rules {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 130px;
+}
+
+.rules img {
+  height: 5vw;
+  margin-bottom: 25px;
+}
+
+.composition {
+  background: #CACC4E;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.composition h2 {
+  margin-top: 130px;
+}
+
+.comp-item {
+  margin-left: 10vw;
+  margin-bottom: 110px;
+}
+
+.comp-item img {
+  width: 30vw;
+}
+
+.comp-item p {
+  margin-top: 20px;
+}
+
+.comp-item h4 {
+  margin-top: 10px;
+}
+
+.comp-item .gor-format {
+  width: 50vw;
+}
+
+.layout-item {
+  margin-left: 10vw;
+  padding-bottom: 130px;
+}
+
+.layout-img {
+  display: flex;
+}
+
+.layout-img img {
+  width: 32vw;
+  margin-right: 20px;
+}
+
+
+.layout-item h4 {
+  margin-top: 10px;
+}
