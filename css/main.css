@@ -79,8 +79,8 @@ p {
 
 h4 {
   font-family: "Basis Grotesque Pro Regular";
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 15px;
+  line-height: 19px;
   color: #233363;
 }
 
@@ -175,15 +175,15 @@ h4 {
   width: 60px;
 }
 
-.wrong, .wrong-sign {
+.wrong, .wrong-sign, .wrong-typo {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 130px;
+  padding-bottom: 130px;
 }
 
-.wrong h4 {
-  margin-top: 25px;
+.wrong h4, .wrong-typo h4 {
+  margin-top: 40px;
 }
 
 .wrong img {
@@ -194,9 +194,26 @@ h4 {
 height: 10vw;
 }
 
+.wrong-typo img {
+  height: 3vw;
+}
+
+.wrong-typo h4 {
+  width: 25vw;
+}
+
 .wrong-sign h4 {
   width: 25vw;
-  margin-top: 25px;
+  margin-top: 40px;
+}
+
+.graphics .wrong h4 {
+  width: 25vw;
+  margin-top: 40px;
+}
+
+.graphics .wrong {
+  padding-bottom: 0px;
 }
 
 .sign {
@@ -319,7 +336,259 @@ height: 10vw;
   margin-right: 20px;
 }
 
-
 .layout-item h4 {
   margin-top: 10px;
+}
+
+.colors {
+  background: #FAF19D;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.color-names {
+  width: 88vw;
+  padding-bottom: 110px;
+}
+
+.color-one {
+  display: flex;
+  align-items: center;
+  padding-bottom: 110px;
+}
+
+.color-one img {
+  width: 13vw;
+  margin-right: 10vw;
+}
+
+.colors-img img {
+  margin-bottom: 20px;
+}
+
+.typography {
+    background: #233363;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.typography h1, .typography p, .typography h2, .typography h4  {
+  color: #FAF19D;
+}
+
+.steinbeck {
+  margin-left: 10vw;
+  padding-bottom: 130px;
+}
+
+.steinbeck h1 {
+  margin-bottom: 20px;
+  padding-top: 110px;
+}
+
+.steinbeck h1:nth-child(2) {
+  padding-top: 20px;
+}
+
+.basis {
+  margin-left: 10vw;
+  padding-bottom: 130px;
+}
+
+.basis h1 {
+  font-family: "Basis Grotesque Pro Regular";
+  margin-bottom: 20px;
+  padding-top: 110px;
+}
+
+.basis h1:nth-child(2) {
+  padding-top: 20px;
+}
+
+.typo-step {
+  width: 70vw;
+  margin-left: 10vw;
+  padding-top: 110px;
+  padding-bottom: 130px;
+}
+
+.subtitle {
+  padding-top: 110px;
+  padding-bottom: 130px;
+  margin-left: 10vw;
+  width: 30vw;
+}
+
+#typo {
+  padding-bottom: 130px;
+}
+
+.graphics {
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.graphics p {
+  margin-bottom: 130px;
+}
+
+.margin-p {
+  margin-bottom: 60px;
+}
+
+.volunteer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.volunteer img {
+  width: 22vw;
+}
+
+.volunteer p {
+  width: 60vw;
+}
+
+#eco {
+  width: 12vw;
+}
+
+.pattern {
+  display: flex;
+  margin-left: 10vw;
+  margin-bottom: 130px;
+}
+
+.pattern h4 {
+  margin-top: 25px;
+}
+
+.pattern img {
+  width: 30vw;
+  margin-right: 10vw;
+}
+
+.pattern-comp {
+  width: 88vw;
+  margin-bottom: 130px;
+}
+
+.pattern-examples {
+  display: flex;
+  margin-bottom: 130px;
+}
+
+.pattern-examples img {
+  width: 25vw;
+  margin-right: 20px;
+}
+
+.graphics .margin-p {
+  margin-bottom: 60px;
+}
+
+.photography {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  background: #F68E5F;
+}
+
+#margin-130 {
+  margin-bottom: 130px;
+}
+
+.photography p {
+  margin-bottom: 130px;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 88vw;
+  padding-bottom: 130px;
+}
+
+.photos img {
+  width: 21vw;
+  margin-bottom: 1vw;
+}
+
+.figma {
+  width: 88vw;
+  padding-bottom: 130px;
+}
+
+.identity {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  background: #E85A5A;
+}
+
+.identity h1, .identity h2, .identity h3, .identity h4 {
+  color: #FAF19D;
+}
+
+.identity-item {
+  padding-bottom: 130px;
+}
+
+.identity-img {
+  display: flex;
+}
+
+.identity-img img {
+  width: 35vw;
+  margin-right: 20px;
+}
+
+.identity-item h4{
+  margin-top: 25px;
+}
+
+#facebook {
+  width: 65vw;
+}
+
+#idcard {
+  width: 88vw;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 88vw;
+  padding-bottom: 130px;
+}
+
+.photos img {
+  width: 21vw;
+  margin-bottom: 1vw;
+}
+
+.merch {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 88vw;
+  padding-bottom: 130px;
+}
+
+.merch img {
+  width: 28vw;
+  margin-bottom: 2vw;
+}
+
+#merch8 {
+  width: 58vw;
+}
+
+#merch9 {
+  width: 43vw;
+}
+
+#merch11 {
+  width: 88vw;
 }
