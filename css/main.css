@@ -99,6 +99,10 @@ h4 {
   padding-bottom: 28px;
 }
 
+.navbar-mobile {
+  display: none;
+}
+
 .main img {
   padding-left: 6vw;
   padding-right: 6vw;
@@ -593,6 +597,18 @@ height: 10vw;
   width: 88vw;
 }
 
+.concept-mobile {
+  display: none;
+}
+
+.color-names-mobile {
+  display: none;
+}
+
+.figma-mobile {
+  display: none;
+}
+
 @media (max-width:1024px) {
 
   a {
@@ -786,5 +802,274 @@ height: 10vw;
   .photos, .figma, .identity-item {
     padding-bottom: 70px;
   }
+
+  .rules {
+    padding-bottom: 80px;
+  }
+
+  #margin-130 {
+    margin-bottom: 80px;
+  }
+
+}
+
+@media (max-width:414px) {
+
+  .steinbeck, .basis {
+    margin-left: 0vw;
+  }
+
+  .steinbeck h1, .basis h1 {
+    font-size: 15px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .main img {
+    margin-top: 270px;
+    width: 88vw;
+  }
+
+  .navbar-mobile {
+    display: inline;
+    position: fixed;
+    background-color: #233363;
+    width: 100%;
+  }
+
+  .main .navbar-mobile img {
+    height: 5vw;
+    margin-top: 6vw;
+    margin-left: 80vw;
+    width: auto;
+    padding-right: 0vw;
+    padding-bottom: 6vw;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .cross {
+    display: none;
+  }
+
+  .fullmenu {
+    display: none;
+    flex-direction: column;
+    margin-left: 6vw;
+    padding-top: 40px;
+    height: 100vh;
+  }
+
+  .fullmenu a {
+    font-size: 30px;
+    line-height: 39px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    width: 88vw;
+  }
+
+  .concept1, .concept2, .concept3, .concept4 {
+    display: none;
+  }
+
+  .concept-mobile {
+    display: block;
+    width: 88vw;
+    margin-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .logo-field {
+    width: 88vw;
+  }
+
+  .logo1, .logo2 {
+    display: block;
+  }
+
+  .logo1 img, .logo2 img {
+    margin-bottom: 20px;
+  }
+
+  .wrong {
+    display: block;
+  }
+
+  .wrong img {
+    width: 60vw;
+  }
+
+  .wrong h4, .wrong-typo h4,  .wrong-sign h4{
+    width: 88vw;
+    padding-bottom: 40px;
+  }
+
+  .wrong, .wrong-sign, .wrong-typo {
+    padding-bottom: 30px;
+  }
+
+  .sign img {
+    margin-left: 0vw;
+  }
+
+  #hidden {
+    display: none;
+  }
+
+  .features {
+    display: block;
+  }
+
+  .bluesquare, .redsquare {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+  }
+
+  .blue, .red {
+    display: block;
+  }
+
+  .wrong, .wrong-sign, .wrong-typo {
+    display: block;
+  }
+
+  .wrong-sign img {
+    height: 30vw;
+  }
+
+  .rules {
+    padding-bottom: 40px;
+    display: block;
+  }
+
+  .rules h4 {
+    margin-bottom: 40px;
+  }
+
+  .comp-item img, .comp-item .gor-format {
+    width: 88vw;
+  }
+
+  .layout-img {
+    flex-wrap: wrap;
+  }
+
+  .layout-img img {
+    width: 88vw;
+    margin-bottom: 20px;
+  }
+
+  .layout-item h4 {
+    margin-top: 0px;
+  }
+
+  .color-one {
+    display: block;
+  }
+
+  .color-one img {
+    width: 40vw;
+    margin-bottom: 40px;
+  }
+
+  .color-names {
+    display: none;
+  }
+
+  .color-names-mobile {
+    display: block;
+    width: 88vw;
+    margin-bottom: 70px;
+  }
+
+  .typo-step, .subtitle, #typo {
+    padding-top: 0px;
+  }
+
+  .wrong-typo img {
+    height: 8vw;
+  }
+
+  .pattern-examples {
+    flex-wrap: wrap;
+  }
+
+  .pattern-examples img {
+    width: 88vw;
+    margin-bottom: 20px;
+
+  }
+
+  .pattern-comp, .pattern-examples {
+    margin-bottom: 50px;
+  }
+
+  .graphics p {
+    margin-bottom: 40px;
+  }
+
+  .graphics .wrong h4 {
+    width: auto;
+  }
+
+  #margin-130 {
+    margin-bottom: 40px;
+  }
+
+  .photos img {
+    width: 88vw;
+    margin-bottom: 20px;
+  }
+
+  .figma {
+    display: none;
+  }
+
+  .figma-mobile {
+    display: block;
+    width: 88vw;
+    padding-bottom: 80px;
+  }
+
+  .identity-img img {
+    width: 88vw;
+    margin-right: 0vw;
+    margin-bottom: 20px;
+  }
+
+  .identity-img {
+    flex-wrap: wrap;
+  }
+
+  .identity-item h4 {
+    margin-top: 0px;
+  }
+
+  #facebook {
+    width: 88vw;
+  }
+
+  .merch {
+    padding-bottom: 80px;
+  }
+
+  .merch img {
+    width: 88vw;
+    padding-bottom: 20px;
+  }
+
+  #merch8, #merch9, #merch11 {
+    width: 88vw;
+  }
+
+
 
 }
