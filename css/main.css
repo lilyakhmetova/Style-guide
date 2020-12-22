@@ -36,7 +36,7 @@ a {
   font-family: "Basis Grotesque Pro Regular";
   text-decoration: none;
   color: #FAF19D;
-  margin-right: 60px;
+  margin-right: 5vw;
 }
 
 a:hover {
@@ -107,7 +107,7 @@ h4 {
   padding-left: 6vw;
   padding-right: 6vw;
   width: 70vw;
-  margin-top: 220px;
+  margin-top: 35vh;
 }
 
 .concept {
